@@ -1,0 +1,4 @@
+/.env
+/mysite/staticfiles/
+.idea
+__pycache__
