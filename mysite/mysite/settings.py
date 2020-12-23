@@ -26,7 +26,7 @@ except KeyError as e:
     raise ImproperlyConfigured(msg) from e
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '[::1]', 'localhost', '.localhost', '.herokuapp.com']
 
